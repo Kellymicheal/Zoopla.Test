@@ -12,12 +12,6 @@ import org.junit.runner.RunWith;
            "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
         ,glue = { "co/uk/zoopla/hooks ","co/uk/zoopla/stepDefinations"},
         tags = {"not @ignore"}
-
-
-
-
-
-
 )
 public class TestRunner {
 }

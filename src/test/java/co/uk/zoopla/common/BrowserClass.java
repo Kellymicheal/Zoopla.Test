@@ -1,14 +1,13 @@
 package co.uk.zoopla.common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import net.bytebuddy.dynamic.TypeResolutionStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class BrowserClass extends Driverlib
+public class BrowserClass extends DriverLib
 {
     private WebDriver initChrome()
     {
@@ -59,7 +58,7 @@ public class BrowserClass extends Driverlib
                 Driver = initInternetExplorer();
                 break;
             default:
-                 = initHeadlessChrome();
+                 Driver = initHeadlessChrome();
         }
         Driver.manage().window().maximize();
     }

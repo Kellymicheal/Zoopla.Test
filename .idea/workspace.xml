@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3f289c-1995-4aa9-b38f-9d411b8a5a3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/BrowserClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/Driverlib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinations/ForSaleSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/BrowserClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/BrowserClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/Driverlib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +52,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Scenario: Customer Can Search For Properties For Sale" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">

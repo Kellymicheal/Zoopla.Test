@@ -14,7 +14,7 @@ public class Hook extends BrowserClass
  @After
     public void teardown()
  {
-     closeBrowser();
+     CloseBrowser();
  }
 
 }
