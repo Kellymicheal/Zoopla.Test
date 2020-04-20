@@ -1,11 +1,16 @@
 package co.uk.zoopla.common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import javax.swing.text.html.Option;
+import java.sql.Time;
+import java.util.concurrent.TimeUnit;
 
 public class BrowserClass extends DriverLib
 {
@@ -21,7 +26,7 @@ public class BrowserClass extends DriverLib
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-gpu", "--headless");
 
-        return new ChromeDriver();
+        return new ChromeDriver(options);
     }
 
     private WebDriver initFirefox()
@@ -61,6 +66,8 @@ public class BrowserClass extends DriverLib
                  Driver = initHeadlessChrome();
         }
         Driver.manage().window().maximize();
+        Driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
+        Driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
     }
 
     public void CloseBrowser()
@@ -69,6 +76,9 @@ public class BrowserClass extends DriverLib
         Driver.quit();
     }
 
+    {
+
+    }
 
 }
 
