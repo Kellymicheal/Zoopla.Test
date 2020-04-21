@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-21T08:40:10.493Z",
+        "start_timestamp": "2020-04-21T22:44:40.305Z",
         "before": [
           {
             "result": {
-              "duration": 11576000000,
+              "duration": 19892000000,
               "status": "passed"
             },
             "match": {
-              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+              "location": "co.uk.zoopla.hooks.Hook.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 5033000000,
+              "duration": 2307000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2526000000,
+              "duration": 13247000000,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1770000000,
+              "duration": 1763000000,
               "status": "passed"
             },
             "line": 9,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 756000000,
+              "duration": 656000000,
               "status": "passed"
             },
             "line": 10,
@@ -83,15 +83,15 @@
           },
           {
             "result": {
-              "duration": 312000000,
+              "duration": 380000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "I select \"£230,000\" from maxprice dropdown",
+            "name": "I select \"£130,000\" from maxprice dropdown",
             "match": {
               "arguments": [
                 {
-                  "val": "\"£230,000\"",
+                  "val": "\"£130,000\"",
                   "offset": 9
                 }
               ],
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 299000000,
               "status": "passed"
             },
             "line": 12,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 140000000,
+              "duration": 304000000,
               "status": "passed"
             },
             "line": 13,
@@ -137,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 2466000000,
+              "duration": 4629000000,
               "status": "passed"
             },
             "line": 14,
@@ -149,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 3921000000,
+              "duration": 1716000000,
               "status": "passed"
             },
             "line": 15,
@@ -171,11 +171,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1236000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "I click on any of the result to view more detail",
-            "match": {},
+            "match": {
+              "location": "co.uk.zoopla.stepDefinations.ForSaleSearchSteps.iClickOnAnyOfTheResultToViewMoreDetail()"
+            },
             "keyword": "And "
           }
         ]

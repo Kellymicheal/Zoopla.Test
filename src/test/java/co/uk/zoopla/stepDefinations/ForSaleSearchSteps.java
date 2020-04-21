@@ -76,7 +76,7 @@ HomePage homePage = PageFactory.initElements(driver,HomePage.class);
         searchResultPage.isResultListDisplayed();
 
     }
-    @Then("l click on any of the result to view more detail")
+    @Then("I click on any of the result to view more detail")
     public void iClickOnAnyOfTheResultToViewMoreDetail()
     {
         productDetailsPage = searchResultPage.clickOnAnyResultsLink();

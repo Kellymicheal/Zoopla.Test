@@ -19,7 +19,7 @@ Feature: Search For Properties For Sale
     Examples:
 
       | Location| Minprice|Maxprice |PropertyType|Bed  |
-      |Manchester| £120,000|£230,000| Houses     |3+   |
+      |Manchester| £120,000|£130,000| Houses     |3+   |
      #| London   | 250,000|£400,000|            \Property   |No min|
      # | Coventary| 120,000|£250,000|            \Flats      |3+   |
       #|         |        |        |                       |
