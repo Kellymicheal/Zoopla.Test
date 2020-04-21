@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>29 Mar 2020, 17:14</td>
+      <td>19 Apr 2020, 00:39</td>
     </tr>
   </tbody>
 </table>
@@ -131,15 +131,15 @@ $(document).ready(function() {
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td class="total">8</td>
+          <td   class="undefined" >1</td>
+          <td class="total">9</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="15000000">0.015</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="23191000000">23.191</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">Search For Properties For Sale</span>
 
@@ -191,12 +191,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">23.191</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Customer Can Search For Properties For Sale</span>
 
@@ -207,16 +207,48 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-2" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">co.uk.zoopla.hooks.Hook.setUp()</span>
+
+  <span class="lead-duration duration">15.169</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -226,7 +258,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -234,7 +266,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I navigate to zoopla homepage</span>
 
-  <span class="lead-duration duration">0.013</span>
+  <span class="lead-duration duration">7.027</span>
 
 </div>
 
@@ -261,7 +293,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I enter a <span class="argument">&quot;Manchester&quot;</span> in the search textbox</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">1.505</span>
 
 </div>
 
@@ -286,9 +318,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">I select <span class="argument">&quot;120,000&quot;</span> from minprice dropdown</span>
+  <span class="name">I select <span class="argument">&quot;&pound;120,000&quot;</span> from minprice dropdown</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.856</span>
 
 </div>
 
@@ -315,7 +347,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I select <span class="argument">&quot;&pound;230,000&quot;</span> from maxprice dropdown</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.485</span>
 
 </div>
 
@@ -340,9 +372,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">I select <span class="argument">&quot;House&quot;</span> from propertytype dropdown</span>
+  <span class="name">I select <span class="argument">&quot;Houses&quot;</span> from propertytype dropdown</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.353</span>
 
 </div>
 
@@ -369,7 +401,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I select <span class="argument">&quot;3+&quot;</span> from bedroom dropdown</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.376</span>
 
 </div>
 
@@ -396,7 +428,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on searchbutton</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">4.026</span>
 
 </div>
 
@@ -421,7 +453,34 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">A list of <span class="argument">&quot;House&quot;</span> in <span class="argument">&quot;Manchester&quot;</span> are displayed</span>
+  <span class="name">A list of <span class="argument">&quot;Houses&quot;</span> in <span class="argument">&quot;Manchester&quot;</span> are displayed</span>
+
+  <span class="lead-duration duration">8.563</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And undefined">
+  <span class="keyword indention">And</span>
+  <span class="name">I click on any of the result to view more detail</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -449,6 +508,38 @@ $(document).ready(function() {
 
 
 
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-4" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">co.uk.zoopla.hooks.Hook.teardown()</span>
+
+  <span class="lead-duration duration">1.842</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
 
   </div>
 </div>

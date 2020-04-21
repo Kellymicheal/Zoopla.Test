@@ -9,17 +9,20 @@ Feature: Search For Properties For Sale
     When I enter a "<Location>" in the search textbox
     And  I select "<Minprice>" from minprice dropdown
     And I select "<Maxprice>" from maxprice dropdown
-    And I select "<Property>" from propertytype dropdown
+    And I select "<PropertyType>" from propertytype dropdown
     And I select "<Bed>" from bedroom dropdown
     And I click on searchbutton
     Then A list of "<PropertyType>" in "<Location>" are displayed
+    And I click on any of the result to view more detail
+
 
     Examples:
-      | Location| Minprice|Maxprice|Property|Bed  |PropertyType|
-      |Manchester| 120,000|£230,000|House   | 3+    | House      |
-    #  | London   | 250,000|£400,000|Farm/land|No Min| Property   |
-     # | Coventary| 120,000|£250,000|   Flat  | 3+   | Flats      |
-      #|         |        |        |         |      |            |
+
+      | Location| Minprice|Maxprice |PropertyType|Bed  |
+      |Manchester| £120,000|£230,000| Houses     |3+   |
+     #| London   | 250,000|£400,000|            \Property   |No min|
+     # | Coventary| 120,000|£250,000|            \Flats      |3+   |
+      #|         |        |        |                       |
 @ignore
   Scenario Outline: Customer Cannot Search For Property With Missing Value
    Given I navigate to zoopla homepage
