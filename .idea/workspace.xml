@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d4f459b-d750-49b2-aebf-b69abeb0af74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/ProductDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/BrowserClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/BrowserClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertyForSale.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/ProductDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/ProductDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinations/ForSaleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinations/ForSaleSearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
@@ -18,10 +16,15 @@
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_807179702.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_807179702.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/common/BrowserClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/common/BrowserClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/common/Driverlib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/common/Driverlib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/ProductDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/ProductDetailsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/SearchResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/SearchResultPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/stepDefinations/ForSaleSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/stepDefinations/ForSaleSearchSteps.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,10 +66,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Scenario: Customer Can Search For Properties For Sale" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">

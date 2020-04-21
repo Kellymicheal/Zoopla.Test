@@ -14,9 +14,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ForSaleSearchSteps extends BasePage
 {
-HomePage homePage = PageFactory.initElements(Driver,HomePage.class);
-    SearchResultPage searchResultPage = PageFactory.initElements(Driver, SearchResultPage.class);
-    ProductDetailsPage  productDetailsPage = PageFactory.initElements(Driver, ProductDetailsPage.class);
+HomePage homePage = PageFactory.initElements(driver,HomePage.class);
+    SearchResultPage searchResultPage = PageFactory.initElements(driver, SearchResultPage.class);
+    ProductDetailsPage  productDetailsPage = PageFactory.initElements(driver, ProductDetailsPage.class);
 
 
     @Given("I navigate to zoopla homepage")

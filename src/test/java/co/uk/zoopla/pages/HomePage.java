@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
 
-        this.Driver = driver;
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
@@ -72,6 +72,6 @@ public class HomePage extends BasePage {
       public SearchResultPage clickOnSubmitButton()
       {
           submitButton.click();
-          return new SearchResultPage(Driver);
+          return new SearchResultPage(driver);
       }
 }

@@ -1,15 +1,12 @@
 package co.uk.zoopla.common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import javax.swing.text.html.Option;
-import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 public class BrowserClass extends DriverLib
@@ -46,13 +43,13 @@ public class BrowserClass extends DriverLib
         switch (browser)
         {
             case "Chrome":
-                Driver = initChrome();
+                driver = initChrome();
                 break;
             case "Firefox":
-                Driver = initFirefox();
+                driver = initFirefox();
                 break;
             case "Headless":
-                Driver = initHeadlessChrome();
+                driver = initHeadlessChrome();
                 break;
             case "ie":
             case "internet Explorer":
@@ -60,20 +57,20 @@ public class BrowserClass extends DriverLib
             case "internetexplorer":
             case "InternetExplorer":
             case "IE":
-                Driver = initInternetExplorer();
+                driver = initInternetExplorer();
                 break;
             default:
-                 Driver = initHeadlessChrome();
+                 driver = initHeadlessChrome();
         }
-        Driver.manage().window().maximize();
-        Driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
-        Driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
     }
 
     public void CloseBrowser()
     {
-        Driver.manage().deleteAllCookies();
-        Driver.quit();
+        driver.manage().deleteAllCookies();
+        driver.quit();
     }
 
     {

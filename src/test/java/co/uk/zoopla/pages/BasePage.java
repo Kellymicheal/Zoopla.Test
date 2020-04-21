@@ -13,7 +13,7 @@ public class BasePage extends DriverLib
 
     public void launchurl()
     {
-        Driver.navigate().to(BASE_URL);
+        driver.navigate().to(BASE_URL);
     }
     public void AcceptCookies()
     {

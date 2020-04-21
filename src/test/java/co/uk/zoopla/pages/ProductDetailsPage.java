@@ -9,7 +9,7 @@ public class ProductDetailsPage extends BasePage
 {
     public ProductDetailsPage(WebDriver driver)
     {
-        this.Driver = driver;
+        this.driver = driver;
 
         PageFactory.initElements(driver,this);
 
